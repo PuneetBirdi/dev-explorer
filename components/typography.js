@@ -1,7 +1,7 @@
 
-export const H1 = ({children}) => {
+export const H2 = ({children}) => {
    return (
-         <h1 className='text-2xl text-black font-black'>{children}</h1>
+         <h2 className='text-2xl text-black font-black'>{children}</h2>
    )
 }
 
