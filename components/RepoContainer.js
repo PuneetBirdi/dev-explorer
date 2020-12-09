@@ -14,7 +14,7 @@ const RepoContainer = ({title, repos, type}) => {
 
         <H3 className='font-black'>{title}</H3>
       </div>
-      <div className="grid gap-6 grid-cols-3 mt-4">
+      <div className="grid gap-6 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 mt-4">
         <RepoCard name='Fake Name' description='Fake description goes here'/>
         <RepoCard name='Fake Name' description='Fake description goes here'/>
         <RepoCard name='Fake Name' description='Fake description goes here'/>
